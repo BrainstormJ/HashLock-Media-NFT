@@ -1,0 +1,40 @@
+{
+  "name": "hashlock-media-nft",
+  "version": "1.0.0",
+  "description": "HashLock Media NFT - ERC-721 smart contract for tokenizing media licenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:goerli": "hardhat run scripts/deploy.js --network goerli",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:polygon": "hardhat run scripts/deploy.js --network polygon",
+    "mint:local": "hardhat run scripts/mint.js --network localhost",
+    "node": "hardhat node",
+    "clean": "hardhat clean",
+    "coverage": "hardhat coverage"
+  },
+  "keywords": [
+    "nft",
+    "erc721",
+    "ethereum",
+    "solidity",
+    "hardhat",
+    "openzeppelin",
+    "media",
+    "licensing",
+    "blockchain",
+    "web3"
+  ],
+  "author": "HashLock Media",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
